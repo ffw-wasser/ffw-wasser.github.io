@@ -1,9 +1,7 @@
-# Domain-Zuordnung H₂O Portal
+# H₂O Webportal
 
-Öffentliche Zuordnung der Root-Domain `ffw-wasser.github.io` zur Apple-App `VKL57X3H6F.de.feuerwehrwasser.h2o`.
+Der aktive Mitgliederzugang ist die gemeinsame Web-App für iPhone und Android unter `/home/deckel.html`. Das Startsymbol ist optional; die persönliche Anmeldung und der serverseitig freigegebene Mitgliederzugang schützen die Daten.
 
-Die Datei `.well-known/apple-app-site-association` erlaubt der App die Passkey-Anmeldung zur Domain sowie Universal Links für `/home/deckel.html` und `/home/termin.html`. Sie enthält ausschließlich öffentliche Kennungen. Anmeldung und Berechtigungen bleiben durch den bestehenden Server geschützt.
+Die native iPhone-App wird seit 27.10.2026 nicht weitergeführt. Die leeren Einträge in `.well-known/apple-app-site-association` nehmen die frühere Zuordnung für Universal Links und native Passkey-Anmeldung zurück. Bereits zwischengespeicherte Zuordnungen können bis zu Apples bzw. dem Geräte-Refresh weiterwirken. Noch installierte TestFlight-Apps können vom jeweiligen Nutzer entfernt werden.
 
-GitHub Pages: Branch `main`, Ordner `/ (root)`. `.nojekyll` stellt die unveränderte Auslieferung des `.well-known`-Ordners sicher. Nach Veröffentlichung müssen HTTPS, HTTP 200 ohne Weiterleitung und der exakte JSON-Inhalt geprüft werden. Geräteabnahme und Apples Zwischenspeicher sind zusätzliche Prüfungen.
-
-Es werden keine Android-Zertifikate veröffentlicht, solange der echte App-Signaturfingerabdruck nicht vorliegt.
+Web-Passkeys, Passwortzugänge und Mitgliederdaten werden dadurch nicht verändert. Root-Seite und HTTPS-Veröffentlichung bleiben bestehen; sie führen zur vorhandenen Anwendung `/home/`. Keine Android-App-Zuordnung veröffentlicht.
