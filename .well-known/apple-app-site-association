@@ -1,8 +1,11 @@
 {
   "applinks": {
-    "details": []
+    "details": [{
+      "appIDs": ["VKL57X3H6F.de.feuerwehrwasser.h2o"],
+      "components": [{"/": "/home/deckel.html"}, {"/": "/home/termin.html"}]
+    }]
   },
   "webcredentials": {
-    "apps": []
+    "apps": ["VKL57X3H6F.de.feuerwehrwasser.h2o"]
   }
 }
