@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.feuerwehrwasser.h2o",
+      "sha256_cert_fingerprints": [
+        "EC:3A:13:83:6D:17:D7:A7:9E:71:FC:95:FC:2E:1A:46:24:CB:23:97:B5:40:1D:A3:41:80:2F:96:30:A5:F0:CE"
+      ]
+    }
+  }
+]
